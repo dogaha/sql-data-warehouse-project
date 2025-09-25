@@ -1,6 +1,4 @@
 # Data Warehouse and Analytics Project
-Welcome to the **Data Warehouse** repository! 🚀  
-This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
 ---
 ## Disclainmer
 This project was created by following a tutorial created by a youtuber named 'Data With Bara'. However, I made some changes to the project by implementing python code for the multiple sql queries and DDL creation. For the DDL creation i used pandas to find to get the general data type then for more specific data types (strings and dates = objects) I checked the actual data to see if it was a date. To run SQL queries I used pypyodbt to run sql server. In addition to this, a config file was added to make the python files slightly eaiser to use. the config file contains server name of the sql server used (note that it dosent work if sql server requires a username / password )
@@ -9,6 +7,9 @@ Also, the order to run the code is...
 init_databasew.sql => ddl_bronze.py => proc_load_bronze.py => ddl_silver.py => proc_load_silver.py => ddl_gold.sql
 
 ---
+Welcome to the **Data Warehouse** repository! 🚀  
+This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project, it highlights industry best practices in data engineering and analytics.
+
 ## 🏗️ Data Architecture
 
 The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
