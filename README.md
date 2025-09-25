@@ -3,7 +3,7 @@
 ## Disclainmer
 This project was created by following a tutorial created by a youtuber named 'Data With Bara'. However, I made some changes to the project by implementing python code for the multiple sql queries and DDL creation. For the DDL creation i used pandas to find to get the general data type then for more specific data types (strings and dates = objects) I checked the actual data to see if it was a date. To run SQL queries I used pypyodbt to run sql server. In addition to this, a config file was added to make the python files slightly eaiser to use. the config file contains server name of the sql server used (note that it dosent work if sql server requires a username / password )
 
-Also, the order to run the code is...
+Also, the order to run the code is...<br>
 init_databasew.sql => ddl_bronze.py => proc_load_bronze.py => ddl_silver.py => proc_load_silver.py => ddl_gold.sql
 
 ---
